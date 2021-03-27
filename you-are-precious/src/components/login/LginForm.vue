@@ -72,7 +72,7 @@ export default {
                             badge: 'bottomleft' //' bottomright' or 'inline' applies to invisible.
                         },
                         //defaultCountry: '+44', // Set default country to the United Kingdom (+44).
-                        loginHint: '+592',
+                        loginHint: '+1',
                         fullLabel: 'Using Phone Number'
                     },
                     firebaseui.auth.AnonymousAuthProvider.PROVIDER_ID
