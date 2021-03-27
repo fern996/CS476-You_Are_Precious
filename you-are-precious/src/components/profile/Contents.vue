@@ -2,8 +2,7 @@
   <nav class="transparent z-depth-0">
     <div class="nav-wrapper">
       <ul class="left">
-        <li><router-link :to="{ name: 'Profile', params: { profileView:'profile' }}" class="sidenav-close" :class="{'grey-text text-darken-2': profileView === 'profile'}">Profile</router-link></li>
-        <li><router-link :to="{ name: 'Profile', params: { profileView:'following' }}" class="sidenav-close " :class="{'grey-text text-darken-2': profileView === 'following'}">Following</router-link></li>
+        <li><router-link :to="{ name: 'Profile', params: { profileView:'profile' }}" class="sidenav-close" :class="{'grey-text text-darken-2': profileView === 'profile'}">Profile Posts</router-link></li>
         <li><router-link :to="{ name: 'Profile', params: { profileView:'userSettings' }}" class="sidenav-close " :class="{'grey-text text-darken-2': profileView === 'userSettings'}">User Settings</router-link></li>
       </ul>
     </div>
@@ -19,7 +18,7 @@
     </div>
     </div>
 
-  <div id="following" v-if="profileView === `following`" class="col s12 red">Test 2</div>
+
   <div id="usersettings" v-if="profileView === `userSettings`" class="col s12"><SettingsForm /></div>
 </template>
 
