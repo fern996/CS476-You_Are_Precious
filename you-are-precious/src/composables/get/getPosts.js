@@ -5,7 +5,7 @@ const getPosts = (type) => {
 
     const posts = ref([])
     const error = ref(null)
-        //console.log('this is getposts')
+
     const load = async() => {
         try {
             const res = await projectFirestore.collection('verifiedPost')
