@@ -4,12 +4,6 @@
             <div class="container">
                 <br><br>
                 <h1 class="header center pink-text text-lighten-1">Help Is Always Here</h1>
-                <div class="row center">
-                    <h6 class="header col s12 light">Message About the Image here</h6>
-                </div>
-                <div class="row center">
-                    <a href="#" id="download-button" class="btn-large waves-effect waves-light pink lighten-1">Get Started</a>
-                </div>
                 <br><br>
             </div>
         </div>
