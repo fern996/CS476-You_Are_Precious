@@ -22,8 +22,8 @@
               <ul>
                 <li><router-link :to="{ name: 'Abuse', params: { view:'Post' }}" class="sidenav-close" :class="{'grey-text text-darken-2': page === 'Abuse'}">Abuse</router-link></li>
                 <li><router-link :to="{ name: 'Suicidal', params: { view:'Post' }}" class="sidenav-close" :class="{'grey-text text-darken-2': page === 'Suicidal'}">Suicidal</router-link></li>
-                <li><router-link to="/" class="sidenav-close" :class="{'grey-text text-darken-2': page === 'MentalHealth'}">Mental Health</router-link></li>
-                <li><router-link to="/" class="sidenav-close " :class="{'grey-text text-darken-2': page === 'AllPosts'}">All Posts</router-link></li>
+                <li><router-link :to="{ name: 'MentalHealth', params: { view:'Post' }}" class="sidenav-close" :class="{'grey-text text-darken-2': page === 'MentalHealth'}">Mental Health</router-link></li>
+                <li><router-link :to="{ name: 'AllPosts', params: { view:'Post' }}" class="sidenav-close " :class="{'grey-text text-darken-2': page === 'AllPosts'}">All Posts</router-link></li>
               </ul>
             </div>
           </li>
