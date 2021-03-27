@@ -23,4 +23,4 @@ const requireNoAuth = (to, from, next) => {
     }
 }
 
-export { requireNoAuth }
+export { requireNoAuth, requireAuth }

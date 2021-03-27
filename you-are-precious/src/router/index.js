@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { requireNoAuth } from '../composables/routeguard/routeguard'
+import { requireNoAuth, requireAuth } from '../composables/routeguard/routeguard'
 //import Home from '../views/Home.vue'
 import CreatePost from '../views/createPost/CreatePost.vue'
 import Abuse from '../views/abuse/Abuse.vue'
@@ -44,18 +44,19 @@ const routes = [{
         path: '/signup/:settings',
         name: 'Signup',
         component: Signup,
-        //beforeEnter: requireNoAuth
+        beforeEnter: requireNoAuth
     },
     {
         path: '/login/:view',
         name: 'Login',
         component: Login,
-        //beforeEnter: requireNoAuth
+        beforeEnter: requireNoAuth
     },
     {
         path: '/profile/:profileView',
         name: 'Profile',
-        component: Profile
+        component: Profile,
+        beforeEnter: requireAuth
     },
     {
         path: '/create-post',
