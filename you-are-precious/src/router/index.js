@@ -4,9 +4,11 @@ import { requireNoAuth, requireAuth } from '../composables/routeguard/routeguard
 import CreatePost from '../views/createPost/CreatePost.vue'
 import Abuse from '../views/abuse/Abuse.vue'
 import Welcome from '../views/welcome/Welcome.vue'
+import MentalHealth from '../views/mentalHealth/MentalHealth.vue'
 import Signup from '../views/signup/Signup.vue'
 import Login from '../views/login/Login.vue'
 import Home from '../views/home/Home.vue'
+import AllPosts from '../views/allPosts/AllPosts.vue'
 import Profile from '../views/profile/Profile.vue'
 import Settings from '../views/settings/Settings.vue'
 import About from '../views/about/About.vue'
@@ -82,6 +84,16 @@ const routes = [{
         path: '/getHelp',
         name: 'GetHelp',
         component: GetHelp
+    },
+    {
+        path: '/allPosts/:view',
+        name: 'AllPosts',
+        component: AllPosts
+    },
+    {
+        path: '/mentalHealth/:view',
+        name: 'MentalHealth',
+        component: MentalHealth
     }
 ]
 
