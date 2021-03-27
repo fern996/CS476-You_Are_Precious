@@ -2,12 +2,6 @@
   <footer id="footer" class="page-footer light-blue lighten-1">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Project Bio</h5>
-          <p class="grey-text text-lighten-4">Add bio about the project here</p>
-
-
-        </div>
         <div class="col l3 s12">
           <h5 class="white-text">Link Type</h5>
           <ul>
