@@ -2,7 +2,7 @@
   <nav class="transparent z-depth-0">
     <div class="nav-wrapper">
       <ul class="left">
-        <li><router-link :to="{ name: 'Profile', params: { profileView:'profile' }}" class="sidenav-close" :class="{'grey-text text-darken-2': profileView === 'profile'}">Profile Posts</router-link></li>
+        <li><router-link :to="{ name: 'Profile', params: { profileView:'profile' }}" class="sidenav-close" :class="{'grey-text text-darken-2': profileView === 'profile'}">My Posts</router-link></li>
         <li><router-link :to="{ name: 'Profile', params: { profileView:'userSettings' }}" class="sidenav-close " :class="{'grey-text text-darken-2': profileView === 'userSettings'}">User Settings</router-link></li>
       </ul>
     </div>
@@ -14,7 +14,7 @@
       <PostList :posts="formattedDocuments" />
     </div>
     <div v-else>
-      <Spinner />
+      <p>No posts found</p>
     </div>
     </div>
 

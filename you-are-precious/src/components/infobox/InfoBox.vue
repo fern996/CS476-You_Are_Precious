@@ -4,29 +4,29 @@
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
-          <div class="icon-block">
+          <router-link to="/about"><div class="icon-block">
             <h2 class="center pink-text text-lighten-1"><i class="material-icons medium">info</i></h2>
-            <h5 class="center">About</h5>
+            <h5 class=" black-text center">About</h5>
 
-            <p class="light">Here I will Type A short about message .....................</p>
-          </div>
+            <p class="light black-text center">About the website</p>
+          </div></router-link>
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">
+          <router-link to="/terms-and-conditions"><div class="icon-block">
             <h2 class="center pink-text text-lighten-1"><i class="material-icons medium">receipt</i></h2>
-            <h5 class="center">Terms and Conditions</h5>
+            <h5 class="center black-text">Terms and Conditions</h5>
 
-            <p class="light">Here I will type a preview about the terms and conditions </p>
-          </div>
+            <p class="light center black-text">Terms and Conditions of the website</p>
+          </div></router-link>
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">
+          <router-link to="/faq"><div class="icon-block">
             <h2 class="center pink-text text-lighten-1"><i class="material-icons medium">question_answer</i></h2>
-            <h5 class="center">FAQ</h5>
-            <p class="light">Answer to one of the most asked questions about filling out a web form</p>
-          </div>
+            <h5 class="center black-text">FAQ</h5>
+            <p class="light center black-text">Answers to the most frequently asked questions</p>
+          </div></router-link>
         </div>
       </div>
     </div>

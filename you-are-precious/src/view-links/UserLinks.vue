@@ -7,7 +7,6 @@
             <div class="collapsible-body">
               <ul>
                 <li><router-link :to="{ name: 'Profile', params: { profileView:'profile' }}" class="sidenav-close" :class="{'grey-text text-darken-2': profileView === 'profile'}">Profile</router-link></li>
-                <li><router-link :to="{ name: 'Profile', params: { profileView:'following' }}" class="sidenav-close " :class="{'grey-text text-darken-2': profileView === 'following'}">Following</router-link></li>
               <li><router-link :to="{ name: 'Profile', params: { profileView:'userSettings' }}" class="sidenav-close " :class="{'grey-text text-darken-2': profileView === 'userSettings'}">User Settings</router-link></li>
               </ul>
             </div>

@@ -48,14 +48,14 @@ export default {
                 signInFlow: "popup",
 
                 signInOptions: [
-                    {
-                        provider: firebase.auth.FacebookAuthProvider.PROVIDER_ID,
-                        fullLabel: 'Using Facebook'
-                    },
-                    {
-                        provider: firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-                        fullLabel: 'Using Google'
-                    },
+                    // {
+                    //     provider: firebase.auth.FacebookAuthProvider.PROVIDER_ID,
+                    //     fullLabel: 'Using Facebook'
+                    // },
+                    // {
+                    //     provider: firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+                    //     fullLabel: 'Using Google'
+                    // },
                     {
                         provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
                         signInMethod: firebase.auth.EmailAuthProvider.EMAIL_LINK_SIGN_IN_METHOD,

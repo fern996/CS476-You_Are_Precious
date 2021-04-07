@@ -4,8 +4,9 @@
             <div class="col hide-on-med-and-down offset-l1 l2">
                 <UserNavBar />
             </div>
-            <div class="col  s12 l8 center red">
-                    add info here!!!!!!!!
+            <div class="col pink-text s12 l8 h2 center">
+                    <h5>Welcome to You Are Precious. We hope this website provides you with the help and support you need. Use the links in the sidebar to navigate through the website and remember</h5>
+                    <h5>YOU ARE PRECIOUS!!</h5>
             </div>
         </div>
         <hr />

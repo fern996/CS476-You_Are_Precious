@@ -20,7 +20,7 @@ import GetHelp from '../views/getHelp/GetHelp.vue'
 const routes = [{
         path: '/',
         name: 'Welcome',
-        component: Welcome
+        component: Home
     },
     {
         path: '/home',

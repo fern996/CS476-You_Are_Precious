@@ -1,6 +1,6 @@
 <template>
   <nav id="navBar" class="blue-grey lighten-4" role="navigation">
-    <div class="nav-wrapper container"><router-link to="/" id="logo-container" class="brand-logo pink-text text-lighten-1">
+    <div class="nav-wrapper container"><router-link to="/home" id="logo-container" class="brand-logo pink-text text-lighten-1">
     <img src ="../../assets/Navlogo.png" id="logo">
     </router-link>
     
